@@ -1,4 +1,6 @@
 name: CI
+  watch:
+    types: started
 on: [push, pull_request]
 jobs:
   clippy_check:
